@@ -6,7 +6,7 @@ using namespace std;
 
 char MATRIX[10], PLAYER, POS, COMPUTER;
 
-void startMATRIX() {
+void startMatrix() {
     for (char i = '1'; i <= '9'; i++) MATRIX[i - 48] = i;
 }
 
