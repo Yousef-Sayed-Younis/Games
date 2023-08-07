@@ -14,7 +14,7 @@ void board() {
     system("cls");
 
     for (int i = 1; i <= 7; i += 3)
-        cout << "|" << " " << MATRIX[i] << " " << "|" << " " << MATRIX[i + 1] << " " << "|" << " " << MATRIX[i + 2] << " " << "|\n";
+        cout << "| " << MATRIX[i] << " | " << MATRIX[i + 1] << " | " << MATRIX[i + 2] << " |\n";
 }
 
 void playNow(bool playWithComputer = false) {
