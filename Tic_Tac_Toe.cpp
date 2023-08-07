@@ -26,8 +26,8 @@ void playNow(bool playWithComputer = false) {
         return playNow(playWithComputer);
     }
 
-    char MATRIXPos = MATRIX[POS - 48];
-    if (MATRIXPos == 'X' or MATRIXPos == 'O') {
+    char matrixPos = MATRIX[POS - 48];
+    if (matrixPos == 'X' or matrixPos == 'O') {
         cout << "This Position is Occupied!, Please Enter Another Number";
         return playNow(playWithComputer);
     }
